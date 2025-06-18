@@ -8,8 +8,7 @@ function showNotes() {
 showNotes();
 
 function updateStorage() {
-    localStorage.setItem("notes", 
-        .innerHTML);
+    localStorage.setItem("notes", notesContainers.innerHTML);
 }
 
 createBtn.addEventListener("click", ()=>{
